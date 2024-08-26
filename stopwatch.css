@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(stopwatch.jpg);
+    color: #333333;
+}
+
+.stopwatch-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 340px;
+    border: 2px solid #e0e0e0;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333333;
+}
+
+.time-display {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    background-color: #f7f7f7;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: #000000;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 100%;
+}
+
+.controls {
+    margin-bottom: 1.5rem;
+}
+
+button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin: 0.3rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.lap-times {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.lap-times h2 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: #333333;
+}
+
+.lap-times ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.lap-times li {
+    background-color: #ffffff;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border-left: 3px solid #007BFF;
+    color: #333333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #007BFF;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e0e0e0;
+}
